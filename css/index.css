@@ -1,5 +1,7 @@
 @import './icons.css';
 @import './fonts.css';
+@import './body.css';
+@import './link.css';
 
 :root {
     --primary: #00B050;
@@ -17,8 +19,4 @@
     --baseFontBold: bold .875rem/1.375rem var(--basefontFamily);
     --button: bold .875rem/1rem var(--baseFont);
     --small: normal .75em/normal var(--basefontFamily);
-}
-
-body{
-    font-family: var(--basefontFamily);
 }
