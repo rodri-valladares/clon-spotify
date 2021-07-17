@@ -4,7 +4,8 @@
 @import './link.css';
 @import './button-icon.css';
 @import './sidebar.css';
-@import '/elipsis.css';
+@import './elipsis.css';
+@import './slider.css';
 
 
 :root {

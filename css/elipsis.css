@@ -1,3 +1,4 @@
+/* Trunca texto que superar el ancho del diseño*/
 /* Envolver al elemento a afectar en un span con class ellipsis*/
 
 .ellipsis {
