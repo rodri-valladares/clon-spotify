@@ -10,7 +10,7 @@
 <body class="body">
 
     <div class="playerControls">
-        <div class="playerControls-buttons">
+        <div class="playerControls-buttons" aria-label="Controles de reproduccion">
 
             <button class="buttonIcon " aria-label="Anterior" title="Anterior">
                 <i class="icon-prev" aria-hidden="true"></i>
@@ -35,6 +35,19 @@
         </div>
     </div>
 
+
+    <div class="playerVolume">
+        <button class="player-control" aria-label="Silenciar" aria-describedby="volumen-icon">
+            <i class="icon-volumeUp" id="volumen-icon" role="presentation" aria-label="Volumen alto"></i>
+        </button>
+        <div class="playerVolume-slider">
+            <div class="slider">
+                <div class="slider-progress">
+                    <button class="slider-button" aria-label="controlar el progreso de la reproduccion"></button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="sidebar">
 
