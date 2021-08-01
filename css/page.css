@@ -1,3 +1,9 @@
+@import './playlist-list.css';
+@import './search.css';
+@import './navigation.css';
+@import './header.css';
+@import './sticky.css';
+
 .page {
     padding-inline-end: 2em;
     padding-inline-start: 2em;
