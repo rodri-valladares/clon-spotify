@@ -1,0 +1,69 @@
+.textPrincipal{
+    margin: 5rem 2rem;
+    padding: 1rem 2rem;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.body-presentacion {
+    background: var(--gray60);
+    color: var(--gray10);
+    font: var(--baseFont);
+    margin: 0;
+}
+
+.btn-ghost{
+  position: relativate;
+  display: inline-block;
+  border: 2px solid var(--primary);
+  padding: 1.1rem 4rem;
+  color: var(--white);
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: var(--primary);
+  transition: color 0.5s, background 0.5s;
+  margin-left: 1.87rem;
+  margin-bottom: .9rem;
+  font-size: 1em;
+  min-width: 8.7rem;
+  
+  text-align: center;
+}
+
+.btn-ghost.round{
+    border-radius: 30px;
+  }
+
+.btn-ghost:hover{
+    color: var(--primary);
+    background-color: transparent;
+}
+
+.btn-ghost:active{
+    box-shadow: inset 0 0 20px var(--primary);
+  }
+
+.texto {
+    text-align: center;
+}
+
+/* .buttonIcon-presentacion {
+    inline-size: 9.5rem;
+    block-size: 1.9rem;
+    background: var(--primary);
+    border-radius: 13%;
+    border: none;
+    cursor: pointer;
+    color: var(--white);
+}
+
+.buttonIcon-presentacion a{
+    text-decoration: none;
+    color: var(--white);
+    font: var(--baseFont);
+} */
